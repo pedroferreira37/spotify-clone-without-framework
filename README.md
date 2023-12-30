@@ -19,3 +19,12 @@ Creating a glue that connects to a database or using a powerful framework that y
 
 
 ## Defining The Scope Of The Problem
+
+Our challenge here is not to replicate the exact functionality of an application that has been running since 2008 and has a team of experienced developers, of which I am not a part. What we need to accomplish is to demonstrate that, in many cases, you don't necessarily require a framework. This is especially true when you're not building something as complex as Spotify on a daily basis, and likely never will be—I regret to say. My ideia here is not focus on backend, but rather in frontend, maybe we can do later a study case about the backend. Let's adress the problems. 
+
+### Reactivity
+
+We gon to start, how we gon to solve reacivity as in spotify. Let's see how it works. 
+
+
+As you can observe, there is a lot of reactivity—first when switching from search to home, then when changing the currently playing music, it updates on the right side and at the bottom, and finally in the search. Once again, we are not aiming to replicate everything, but only certain components. The idea here is to leverage the new-old concept of NextJS server components. PHP has already implemented a similar idea, but let's begin the process. 
